@@ -1,0 +1,87 @@
+/* 联系我们 */
+.concat-service {
+  text-align: center;
+  color: #01a1ff;
+
+}
+.concat-service p:first-child{
+  width: 143px;
+  font: 14px Tahoma;
+  font-weight: bold;
+  line-height: 24px;
+  border-bottom: 2px solid #01a1ff;
+  margin: 18px auto 0;
+}
+.concat-service p:last-child{
+  margin:  6px 0 20px;
+}
+/* map-concat 内容区域*/
+.map-concat{
+  overflow: hidden;
+  padding: 40px 20px 0;
+
+}
+#map{
+  margin-bottom: 30px;
+}
+.map-concat form{
+  float: left;
+  width: 550px;
+  font: 16px 宋体;
+  color: #666666;
+}
+.map-concat form label{
+  display: inline-block;
+  width: 57px;
+  text-align: right;
+  line-height: 36px;
+}
+.map-concat form input{
+  width: 250px;
+  height: 25px;
+  padding: 0 10px;
+  font-size: 16px;
+}
+.map-concat form label.concat{
+  vertical-align: top;
+}
+.map-concat form textarea{
+  width: 430px;
+  height: 94px;
+  display: inline-block;
+  margin: 5px 0 10px -8px;
+  font-size: 16px;
+  padding: 10px;
+  resize: none;
+}
+.map-concat form input[type=submit]{
+  margin: 0 20px 0 56px;
+  width: 97px;
+  height: 30px;
+  background-color: #01a1ff;
+  color: #ffffff;
+  border: 0;
+
+}
+.map-concat form input[type=reset]{
+  color: #999999;
+  width: 97px;
+  height: 30px;
+  border: 1px solid #cccccc;
+
+}
+/* contcat-info */
+.contcat-info{
+  float: right;
+}
+.contcat-info h2{
+  font-size: 20px;
+  color: #333333;
+  font-weight: 600;
+}
+.contcat-info p{
+  margin-top: 18px;
+  font-size: 14px;
+  color: #666666;
+
+}
